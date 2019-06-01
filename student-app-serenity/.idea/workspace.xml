@@ -1,7 +1,401 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad98ee4a-cc50-49a3-8ee8-5b4460fb503c" name="Default Changelist" comment="" />
+    <list default="true" id="ad98ee4a-cc50-49a3-8ee8-5b4460fb503c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.studentapp.studentinfo.CreateStudentDataDrivenTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.studentapp.studentinfo.FirstSerenityTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.studentapp.studentinfo.StudentCURDTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.studentapp.studentinfo.TagsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/com.studentapp.studentinfo.CreateStudentDataDrivenTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/com.studentapp.studentinfo.FirstSerenityTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/com.studentapp.studentinfo.StudentCURDTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/com.studentapp.studentinfo.TagsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/02dd8f8ada4c10b8ebb5c1f309605a6f7c147adc21bcf5c55829855ba045ff03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/02dd8f8ada4c10b8ebb5c1f309605a6f7c147adc21bcf5c55829855ba045ff03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0583e6d87da49b8b10ae6f761b58d3e0ba89d6870f8b28ecdf122d5474df3e18.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0c116c9122b6baaabc680cf2d8e570071fa59eecf5aaea5a5a89ac30ddc3f66d.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/17332cdd84574325204f46abb7eb5b570ee5d75b98559130882ea3fb037473ed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1b0ddca041d9b9a5ba174401a22364845d534cd1d359ec6f21167f922c360ab0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1b0ddca041d9b9a5ba174401a22364845d534cd1d359ec6f21167f922c360ab0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3144e62d3f78753ff5a47f4b307175f9025902fb23ad990df65c93a510b75407.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/31af69e0677335175105ffd4f43136694b48ea76b291d8426011da0011ef1e89.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/329dd89448732348929d4b1de428ed9ac5b7ab1f6043264968b303f41b656012.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/32b051f27fe37ac8f00246aa01c3c92b7e0b4d1e8af0e3746fed6c9c1fb929f3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/32b051f27fe37ac8f00246aa01c3c92b7e0b4d1e8af0e3746fed6c9c1fb929f3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/33881d70acfec68fd7e671d26d7148cbb76e1e3b297cefd592db04b0194a718d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3659b041da48af7eaf1710fefc60af151ec859fe83faa67e1b950f6f894f56de.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3b069b4896a39eeab5e3f2dfc5f956c6afbacee1f7ad8feacdd6182209d3e45a.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/41d8020278695fac82a30cda37c4b819290d462ab13c049dcfc8d3befdb2426b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/41d8020278695fac82a30cda37c4b819290d462ab13c049dcfc8d3befdb2426b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4663e0e2ad53cac093fd31fe55ee6fee7f0f6b3464060fa39b3ca6b3bb9c46ad.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/46ad6fa9ac628674ccc4236fad0ac636349ae8815643d470aae769356af074a7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/46ad6fa9ac628674ccc4236fad0ac636349ae8815643d470aae769356af074a7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4b29b0fa4a5c24c6f53bf65d59b89d2e25393c4c331b1b4c9f74e3217df3bb3d.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4b29b0fa4a5c24c6f53bf65d59b89d2e25393c4c331b1b4c9f74e3217df3bb3d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5053df23d938d94a0f76ff8576f30fa04a3b5f200abe6d6733d93805339f59f4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5053df23d938d94a0f76ff8576f30fa04a3b5f200abe6d6733d93805339f59f4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/52229cbd2389a1c9e336d27bf6dcd0a185288e3320b1886e2b870a9fb4cc2f9c.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/52229cbd2389a1c9e336d27bf6dcd0a185288e3320b1886e2b870a9fb4cc2f9c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/588269947110d9f410c7c1ea2b0b553abb136188e656967973f2a471bb4399b4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/588269947110d9f410c7c1ea2b0b553abb136188e656967973f2a471bb4399b4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5e310fb15a977efa1cd323252e849f7ea188ec8f6a0150b62eda051d87651095.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6bbea1b78063cda2dcae6d0e2e3b1d65b199ccd33715e1b123e3a0aa7e292d66.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6bbea1b78063cda2dcae6d0e2e3b1d65b199ccd33715e1b123e3a0aa7e292d66.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6d589a229e893da2d72c4f1d2db8d759e30a0ff9dfd0d46e7a37e5511a13e275.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/75fdd1f07608f6f78e4be26358ae7670034977e2a07f23c4b5e925fb3bc63f2d.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/75fdd1f07608f6f78e4be26358ae7670034977e2a07f23c4b5e925fb3bc63f2d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7695e134c624d0de9778fe601f3a0787314c91a3fe538a974e2b3c5c815bd842.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7695e134c624d0de9778fe601f3a0787314c91a3fe538a974e2b3c5c815bd842.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7b508452211f79a0b31af52e7b393256a2893670b84eb05b55095b052d62a8db.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7b508452211f79a0b31af52e7b393256a2893670b84eb05b55095b052d62a8db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/82c06169d4d3e625fc0f424adb0528a091be5609f86e2d115c0c2d9ff5ba0d93.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/82c06169d4d3e625fc0f424adb0528a091be5609f86e2d115c0c2d9ff5ba0d93.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8929b3e5541b0b2faf24fb618c5e429219c486740be760d593061c68a720b15f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8929b3e5541b0b2faf24fb618c5e429219c486740be760d593061c68a720b15f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8a8754e266abd50c4de8324473c7e4f61bc3eb963b366b3a6cfdde8c000f0f54.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8bb67dda59c4bee220cf7fdbfe33a0f5adcb9174ad573f73be267d6fc736f608.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8bb67dda59c4bee220cf7fdbfe33a0f5adcb9174ad573f73be267d6fc736f608.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5053df23d938d94a0f76ff8576f30fa04a3b5f200abe6d6733d93805339f59f4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-e54fe27ba98607aa408f78b8c759569dd08ed3b6441bb00470eed1db97c4a01a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a806fa3d94340836da5f4280d74b4305d15b662dc268544a2369ebd76a8097ef.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a806fa3d94340836da5f4280d74b4305d15b662dc268544a2369ebd76a8097ef.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/adca747acc49218136d63160608fa8431f3b910bca5a6b47102f03d50dbf1a44.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/adca747acc49218136d63160608fa8431f3b910bca5a6b47102f03d50dbf1a44.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ae8c37d5f5261c93168fd82d3dd4c4676334824582ff72f6f942cde267e2d431.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b4dc05d4393f3c8374d8e2905975f2a4db1155fd8d8af342b179b6af0eb24086.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b576ac3722af3c76a31a3ae5f9ae1cfad0d5d4a887acad3915004bd40c8c5fcf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b576ac3722af3c76a31a3ae5f9ae1cfad0d5d4a887acad3915004bd40c8c5fcf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b937de226a28ff12685db2e12199936f49ce0a55fe95b3f80d12f6c058a287a6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/be9b27c8d1a109d2464571fd38ffa97a77414021b34adc36b96dccd038724859.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/be9b27c8d1a109d2464571fd38ffa97a77414021b34adc36b96dccd038724859.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c82743bf5623fc90751d777e1ab4711c4c80ec190b5cab427e3e6fe8f0b952cf.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c82743bf5623fc90751d777e1ab4711c4c80ec190b5cab427e3e6fe8f0b952cf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cc19c8572869eaf2a7182ea2cef84d0076db96169f1910281f59d73457cf3cc2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ce146f19b22a6f219f204b7c6a87fb24a6a76c0acc5ceb8b192a0de3d1ef5e3b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ce146f19b22a6f219f204b7c6a87fb24a6a76c0acc5ceb8b192a0de3d1ef5e3b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cf0ce52066dfb2d519133f864035becbee9deb23afdbe32f61cf346c16692472.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cf0ce52066dfb2d519133f864035becbee9deb23afdbe32f61cf346c16692472.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/css/link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/css/tables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/da56daac1b9cf5a1e9d0743a002195b6d8b4e29a184332f9837d66fa6e10fc63.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/da56daac1b9cf5a1e9d0743a002195b6d8b4e29a184332f9837d66fa6e10fc63.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/Sorting icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/de7298ec46d105b7647573f75b55ecb96f0d1c0304dda6e33ed093f8535481e8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/de7298ec46d105b7647573f75b55ecb96f0d1c0304dda6e33ed093f8535481e8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e54fe27ba98607aa408f78b8c759569dd08ed3b6441bb00470eed1db97c4a01a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e54fe27ba98607aa408f78b8c759569dd08ed3b6441bb00470eed1db97c4a01a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e64e5dea00c6c640fb658f22d9dfc528fe247fabe484e341491a553cbc9947e2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e9bb59d6f68bcf28b16164dbce42d9a0f934712d87dff627c5d4e42ba4da7c1a.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e9bb59d6f68bcf28b16164dbce42d9a0f934712d87dff627c5d4e42ba4da7c1a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.compiled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/bg_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/bg_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/bottomm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-appium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-chrome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-firefox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-htmlunit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-iexplorer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-opera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-phantomjs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-provided.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-remote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-safari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/greenline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/ico-q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/icon-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/ignor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/links_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/menu_f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/menu_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/menu_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/middle-left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/middle-right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/pending.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/serenity-bdd-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/skip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/small-middle-left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/small-middle-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/small-middle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/tablebg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/top-left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/top-right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/topm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-in-progress.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-orange.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-yellow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/images/worker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit-yc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/AreaChart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/BarChart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected3D.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/HeatMap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Hypertree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Icicle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Other.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/PieChart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/RGraph.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Spacetree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Sunburst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/TimeGraph.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Treemap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/col1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/col2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/tree.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_55_999999_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_45_0078ae_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_55_f8da4e_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_75_79c9ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_0078ae_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_056b93_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_e0fdff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f5e175_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f7a50d_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_fcd113_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/dev7logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/nemo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/toystory.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/walle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivo-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bullets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/bullets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/bullets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/bullets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scripts/imgpreview.full.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scripts/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scripts/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/serenity-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentapp/model/StudentPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentapp/model/StudentPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/FirstSerenityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/FirstSerenityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/StudentCURDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/StudentCURDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-app-serenity.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,34 +408,15 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/FirstSerenityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-804">
-              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/studentapp/model/StudentPojo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/studentapp/utils/TestUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="-959">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -49,17 +424,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/StudentCURDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1178">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="110">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/feature/student.feature">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/testbase/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,10 +448,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/studentapp/model/StudentPojo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/studentapp/cucumber/StudentCURDTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/studentapp/cucumber/FirstSerenityTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/CreateStudentDataDrivenTest.java" />
@@ -84,6 +461,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/resources/feature/student.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/TagsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/studentapp/model/StudentPojo.java" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/StudentCURDTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/FirstSerenityTest.java" />
       </list>
     </option>
   </component>
@@ -94,12 +475,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -142,15 +524,6 @@
               <item name="student-app-serenity" type="b2602c69:ProjectViewProjectNode" />
               <item name="student-app-serenity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studentapp" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-app-serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-app-serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,16 +548,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="studentapp" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-app-serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-app-serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studentapp" type="462c0819:PsiDirectoryNode" />
-              <item name="studentinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="testbase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="student-app-serenity" type="b2602c69:ProjectViewProjectNode" />
@@ -203,7 +567,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/resources/feature" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -215,6 +580,7 @@
       <recent name="com.studentapp.testbase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Prime Git Hub Project\student-app-serenity\student-app-serenity" />
       <recent name="C:\Users\Hello\Desktop\StudentAppProjects\student-app-serenity\src\test\java\resources\feature" />
       <recent name="C:\Users\Hello\Desktop\StudentAppProjects\student-app-serenity\src\test\java" />
     </key>
@@ -243,6 +609,70 @@
       <option name="PACKAGE_NAME" value="com.studentapp.studentinfo" />
       <option name="MAIN_CLASS_NAME" value="com.studentapp.studentinfo.FirstSerenityTest" />
       <option name="METHOD_NAME" value="getAllStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentCURDTest.test001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-app-serenity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.studentapp.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.studentapp.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.studentapp.studentinfo.StudentCURDTest" />
+      <option name="METHOD_NAME" value="test001" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentCURDTest.test002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-app-serenity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.studentapp.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.studentapp.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.studentapp.studentinfo.StudentCURDTest" />
+      <option name="METHOD_NAME" value="test002" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentCURDTest.test003" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-app-serenity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.studentapp.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.studentapp.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.studentapp.studentinfo.StudentCURDTest" />
+      <option name="METHOD_NAME" value="test003" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentCURDTest.test004" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-app-serenity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.studentapp.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.studentapp.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.studentapp.studentinfo.StudentCURDTest" />
+      <option name="METHOD_NAME" value="test004" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,9 +708,17 @@
     <list>
       <item itemvalue="JUnit.FirstSerenityTest.getAllStudents" />
       <item itemvalue="Maven.StudentAppRunner" />
+      <item itemvalue="JUnit.StudentCURDTest.test001" />
+      <item itemvalue="JUnit.StudentCURDTest.test002" />
+      <item itemvalue="JUnit.StudentCURDTest.test003" />
+      <item itemvalue="JUnit.StudentCURDTest.test004" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentCURDTest.test004" />
+        <item itemvalue="JUnit.StudentCURDTest.test003" />
+        <item itemvalue="JUnit.StudentCURDTest.test002" />
+        <item itemvalue="JUnit.StudentCURDTest.test001" />
         <item itemvalue="JUnit.FirstSerenityTest.getAllStudents" />
       </list>
     </recent_temporary>
@@ -305,16 +743,37 @@
     <history-entry file="FirstSerenityTest_getAllStudents - 2019.05.31 at 07h 43m 23s.xml">
       <configuration name="FirstSerenityTest.getAllStudents" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FirstSerenityTest_getAllStudents - 2019.06.01 at 16h 06m 06s.xml">
+      <configuration name="FirstSerenityTest.getAllStudents" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstSerenityTest_getAllStudents - 2019.06.01 at 16h 08m 01s.xml">
+      <configuration name="FirstSerenityTest.getAllStudents" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentCURDTest_test001 - 2019.06.01 at 16h 53m 00s.xml">
+      <configuration name="StudentCURDTest.test001" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentCURDTest_test002 - 2019.06.01 at 16h 53m 24s.xml">
+      <configuration name="StudentCURDTest.test002" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentCURDTest_test003 - 2019.06.01 at 16h 58m 26s.xml">
+      <configuration name="StudentCURDTest.test003" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentCURDTest_test004 - 2019.06.01 at 16h 59m 49s.xml">
+      <configuration name="StudentCURDTest.test004" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentCURDTest_test004 - 2019.06.01 at 17h 01m 49s.xml">
+      <configuration name="StudentCURDTest.test004" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28139183" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -322,7 +781,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.5253683" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.6525573" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -342,7 +801,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28163266" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -350,7 +809,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.5253683" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.6292517" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -380,27 +839,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/studentapp/App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/studentapp/App.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/cucumber/serenity/StudentSerenitySteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/testbase/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -411,17 +854,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/FirstSerenityTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/feature/student.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-804">
-          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="60" />
+        <state relative-caret-position="154">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/studentapp/model/StudentPojo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="352">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="171" column="29" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -432,17 +882,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/StudentCURDTest.java">
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1178">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="44">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/feature/student.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/StudentCURDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="110">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/testbase/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/studentapp/studentinfo/FirstSerenityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-959">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
