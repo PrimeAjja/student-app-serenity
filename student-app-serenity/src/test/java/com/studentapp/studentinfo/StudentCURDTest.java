@@ -45,6 +45,7 @@ public class StudentCURDTest extends TestBase {
                 .statusCode(201);
 
 
+
     }
 
     @Title("Verify if the student was added to the application")

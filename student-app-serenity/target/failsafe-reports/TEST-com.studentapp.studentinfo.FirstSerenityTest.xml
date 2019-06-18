@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.studentapp.studentinfo.FirstSerenityTest" time="10.703" tests="8" errors="2" skipped="3" failures="1">
+<testsuite name="com.studentapp.studentinfo.FirstSerenityTest" time="0.159" tests="8" errors="2" skipped="1" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @SMOKE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
     <property name="java.vm.version" value="25.152-b16"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -28,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.2\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Soft\Selenium\drivers\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Apache\apache-maven-3.6.1\bin;C:\Users\Hello\AppData\Local\Microsoft\WindowsApps;C:\Users\Hello\AppData\Roaming\npm;C:\Users\Hello\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Soft\Selenium\drivers\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Apache\apache-maven-3.6.1\bin;C:\Users\Hello\AppData\Local\Microsoft\WindowsApps;C:\Users\Hello\AppData\Roaming\npm;C:\Users\Hello\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-11.0.1\bin;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.2 clean verify serenity:aggregate"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.2 clean verify -Dcucumber.options=--tags @SMOKE serenity:aggregate"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,124 +64,16 @@
   </properties>
   <testcase name="thisIsASkippedTest" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0">
     <skipped/>
-    <system-err><![CDATA[944 [main] INFO net.serenitybdd.core.Serenity - 
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
--------------------------------------------------------------------------------------
-
-1033 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: First serenity test
-1235 [main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: thisIsASkippedTest
--------------------------------------------------------------------
-1235 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
-1237 [main] INFO net.serenitybdd.core.Serenity - TEST IGNORED
-1263 [main] INFO net.serenitybdd.core.Serenity - 
-            __  _____ _____ ____ _____   ____  _  _____ ____  ____  _____ ____  
-  _        / / |_   _| ____/ ___|_   _| / ___|| |/ /_ _|  _ \|  _ \| ____|  _ \ 
- (_)_____ / /    | | |  _| \___ \ | |   \___ \| ' / | || |_) | |_) |  _| | | | |
-  _|_____/ /     | | | |___ ___) || |    ___) | . \ | ||  __/|  __/| |___| |_| |
- (_)    /_/      |_| |_____|____/ |_|   |____/|_|\_\___|_|   |_|   |_____|____/ 
-                                                                                
-
-TEST SKIPPED: This is a skipped test
----------------------------------------------------------------------------------
-]]></system-err>
   </testcase>
-  <testcase name="thisIsAtestWithError" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0.008">
+  <testcase name="thisIsAtestWithError" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0">
     <error message="/ by zero" type="java.lang.ArithmeticException">java.lang.ArithmeticException: / by zero
-	at com.studentapp.studentinfo.FirstSerenityTest.thisIsAtestWithError(FirstSerenityTest.java:60)
+	at com.studentapp.studentinfo.FirstSerenityTest.thisIsAtestWithError(FirstSerenityTest.java:56)
 </error>
-    <system-err><![CDATA[1271 [main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: thisIsAtestWithError
--------------------------------------------------------------------
-1271 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
-]]></system-err>
   </testcase>
-  <testcase name="test01" classname="com.studentapp.studentinfo.FirstSerenityTest" time="10.326"/>
-  <testcase name="thisIsAPendingTest" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0">
-    <skipped/>
-    <system-err><![CDATA[11657 [main] INFO net.serenitybdd.core.Serenity - 
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
-
-TEST PASSED: This test will get the information of all the students from the Student App
-----------------------------------------------------------------------------
-11660 [main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: thisIsAPendingTest
--------------------------------------------------------------------
-11661 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
-11661 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-11663 [main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: This is a pending test
----------------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="thisIsAManualTest" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0">
-    <skipped/>
-    <system-err><![CDATA[11664 [main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: thisIsAManualTest
--------------------------------------------------------------------
-11665 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
-11666 [main] INFO net.serenitybdd.core.Serenity - TEST MANUAL
-11666 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-11667 [main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: This is a manual test
----------------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="thisIsaFailing" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0.136">
+  <testcase name="test01" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0"/>
+  <testcase name="thisIsAPendingTest" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0"/>
+  <testcase name="thisIsAManualTest" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0"/>
+  <testcase name="thisIsaFailing" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0.003">
     <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <500> but was <200>.
 
@@ -208,20 +101,8 @@ Expected status code <500> but was <200>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.studentapp.studentinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:42)
+	at com.studentapp.studentinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:38)
 ]]></failure>
-    <system-err><![CDATA[11669 [main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: thisIsaFailing
--------------------------------------------------------------------
-11669 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 6
-]]></system-err>
   </testcase>
   <testcase name="fileDoesNotExist" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0.003">
     <error message="E:\file.txt (The system cannot find the file specified)" type="java.io.FileNotFoundException"><![CDATA[java.io.FileNotFoundException: E:\file.txt (The system cannot find the file specified)
@@ -229,31 +110,8 @@ TEST STARTED: thisIsaFailing
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
 	at java.io.FileReader.<init>(FileReader.java:72)
-	at com.studentapp.studentinfo.FirstSerenityTest.fileDoesNotExist(FirstSerenityTest.java:67)
+	at com.studentapp.studentinfo.FirstSerenityTest.fileDoesNotExist(FirstSerenityTest.java:63)
 ]]></error>
-    <system-err><![CDATA[11785 [main] ERROR net.serenitybdd.core.Serenity - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-TEST FAILED: This isa failing
---------------------------------------------------------------------------
-11786 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <500> but was <200>.
-11797 [main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: fileDoesNotExist
--------------------------------------------------------------------
-11798 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 7
-]]></system-err>
   </testcase>
-  <testcase name="getAllStudents" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0.23"/>
+  <testcase name="getAllStudents" classname="com.studentapp.studentinfo.FirstSerenityTest" time="0.153"/>
 </testsuite>

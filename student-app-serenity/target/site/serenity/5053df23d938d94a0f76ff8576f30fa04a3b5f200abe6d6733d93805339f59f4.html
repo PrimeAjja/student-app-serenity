@@ -58,7 +58,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-06-2019 17:08</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-06-2019 14:41</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -130,22 +130,47 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="top-level-step">POST http://localhost:8080/student</span>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                            <span class="top-level-step">Creating student with firstName:SMOKEUSER53153, lastName:SMOKEUSER95062, email:14941xyz@gmail.com,programme:ComputerScience ,courses:[JAVA, C++]</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.65s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:8080/student</span>
 
                                 <span class="rest-query">
                 <span>
                     <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-1">
+                            data-target="#restModal-2">
                         REST Query
                     </button>
                 </span>
                 <!-- Modal -->
-                <div class="modal fade" id="restModal-1" tabindex="-1" role="dialog"
+                <div class="modal fade" id="restModal-2" tabindex="-1" role="dialog"
                      aria-labelledby="restModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -163,11 +188,11 @@
                                     <h5>Request Headers</h5>
                                     <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                     <h5>Content Body</h5>
-                                    <pre>{<br>    &quot;id&quot;: 0,<br>    &quot;firstName&quot;: &quot;Manish&quot;,<br>    &quot;lastName&quot;: &quot;Irachande&quot;,<br>    &quot;email&quot;: &quot;abc@gmail.com&quot;,<br>    &quot;programme&quot;: &quot;Computer Science&quot;,<br>    &quot;courses&quot;: [<br>        &quot;JAVA&quot;,<br>        &quot;C++&quot;<br>    ]<br>}</pre>
+                                    <pre>{<br>    &quot;id&quot;: 0,<br>    &quot;firstName&quot;: &quot;SMOKEUSER53153&quot;,<br>    &quot;lastName&quot;: &quot;SMOKEUSER95062&quot;,<br>    &quot;email&quot;: &quot;14941xyz@gmail.com&quot;,<br>    &quot;programme&quot;: &quot;ComputerScience&quot;,<br>    &quot;courses&quot;: [<br>        &quot;JAVA&quot;,<br>        &quot;C++&quot;<br>    ]<br>}</pre>
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Location: http://localhost:8080/student/0<br>Content-Type: application/json;charset=UTF-8<br>Transfer-Encoding: chunked<br>Date: Sat, 01 Jun 2019 16:08:59 GMT</pre>
+                                    <pre>Location: http://localhost:8080/student/0<br>Content-Type: application/json;charset=UTF-8<br>Transfer-Encoding: chunked<br>Date: Sat, 08 Jun 2019 13:41:32 GMT</pre>
                                 <h5>Response Body</h5>
                                     <pre>
                                         {<br>    &quot;msg&quot;: &quot;Student added&quot;<br>}
@@ -187,13 +212,17 @@
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.02s</span></td>
                 </tr>
+
+                    </table>
+                    </td>
+                    <tr>
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.8s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.66s</em></span></td>
                 </tr>
 
             </table>

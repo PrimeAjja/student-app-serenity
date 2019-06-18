@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.studentapp.studentinfo.StudentCURDTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.58 sec <<< FAILURE! - in com.studentapp.studentinfo.StudentCURDTest
-com.studentapp.studentinfo.StudentCURDTest  Time elapsed: 1.04 sec  <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.295 sec <<< FAILURE! - in com.studentapp.studentinfo.StudentCURDTest
+com.studentapp.studentinfo.StudentCURDTest  Time elapsed: 0.599 sec  <<< ERROR!
 net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate configuration report
 	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
 	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
@@ -16,7 +16,7 @@ net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate conf
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
-Caused by: net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate reports using net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2ffe243f
+Caused by: net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate reports using net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@410fc508
 	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:223)
 	at net.thucydides.core.reports.ReportService.access$100(ReportService.java:35)
 	at net.thucydides.core.reports.ReportService$1.run(ReportService.java:157)
@@ -50,13 +50,14 @@ Caused by: net.thucydides.core.reports.templates.TemplateMergeException: Failed 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: freemarker.core._TemplateModelException: Java method "net.thucydides.core.reports.html.Formatter.renderText(String)" threw an exception when invoked on net.thucydides.core.reports.html.Formatter object "net.thucydides.core.reports.html.Formatter@53c2752"; see cause exception in the Java stack trace.
+Caused by: freemarker.core._TemplateModelException: Java method "net.thucydides.core.reports.html.Formatter.renderText(String)" threw an exception when invoked on net.thucydides.core.reports.html.Formatter object "net.thucydides.core.reports.html.Formatter@73c5d248"; see cause exception in the Java stack trace.
 
 ----
 FTL stack trace ("~" means nesting-related):
 	- Failed at: ${formatter.renderText(restQuery.resp...  [in template "freemarker/default.ftl" in macro "restQueryData" at line 348, column 41]
 	- Reached through: @restQueryData restQuery=step.restQue...  [in template "freemarker/default.ftl" in macro "step_details" at line 418, column 37]
 	- Reached through: @step_details step=step step_number=s...  [in template "freemarker/default.ftl" in macro "write_step" at line 242, column 17]
+	- Reached through: @write_step step=nestedStep step_numb...  [in template "freemarker/default.ftl" in macro "write_step" at line 252, column 25]
 	- Reached through: @write_step step=step step_number=ste...  [in template "freemarker/default.ftl" at line 464, column 17]
 ----
 	at freemarker.ext.beans._MethodUtil.newInvocationTemplateModelException(_MethodUtil.java:311)
@@ -101,6 +102,23 @@ FTL stack trace ("~" means nesting-related):
 	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
 	at freemarker.core.Environment.visit(Environment.java:324)
 	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.ConditionalBlock.accept(ConditionalBlock.java:48)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Macro$Context.runMacro(Macro.java:184)
+	at freemarker.core.Environment.invoke(Environment.java:701)
+	at freemarker.core.UnifiedCall.accept(UnifiedCall.java:84)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlockInner(IteratorBlock.java:268)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlock(IteratorBlock.java:220)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:194)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:572)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:78)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
 	at freemarker.core.Environment.visit(Environment.java:324)
 	at freemarker.core.Environment.process(Environment.java:302)
 	at net.thucydides.core.reports.templates.FreemarkerReportTemplate.merge(FreemarkerReportTemplate.java:42)
@@ -117,7 +135,7 @@ FTL stack trace ("~" means nesting-related):
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.NullPointerException: null
 	at net.thucydides.core.reports.html.Formatter.renderText(Formatter.java:124)
-	at sun.reflect.GeneratedMethodAccessor93.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at freemarker.ext.beans.BeansWrapper.invokeMethod(BeansWrapper.java:1458)
@@ -146,6 +164,23 @@ Caused by: java.lang.NullPointerException: null
 	at freemarker.core.Macro$Context.runMacro(Macro.java:184)
 	at freemarker.core.Environment.invoke(Environment.java:701)
 	at freemarker.core.UnifiedCall.accept(UnifiedCall.java:84)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Macro$Context.runMacro(Macro.java:184)
+	at freemarker.core.Environment.invoke(Environment.java:701)
+	at freemarker.core.UnifiedCall.accept(UnifiedCall.java:84)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlockInner(IteratorBlock.java:268)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlock(IteratorBlock.java:220)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:194)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:572)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:78)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.ConditionalBlock.accept(ConditionalBlock.java:48)
 	at freemarker.core.Environment.visit(Environment.java:324)
 	at freemarker.core.MixedContent.accept(MixedContent.java:54)
 	at freemarker.core.Environment.visit(Environment.java:324)

@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.studentapp.studentinfo.FirstSerenityTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 2, Skipped: 3, Time elapsed: 20.932 sec <<< FAILURE! - in com.studentapp.studentinfo.FirstSerenityTest
-thisIsAtestWithError(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.008 sec  <<< ERROR!
+Tests run: 8, Failures: 1, Errors: 2, Skipped: 1, Time elapsed: 0.162 sec <<< FAILURE! - in com.studentapp.studentinfo.FirstSerenityTest
+thisIsAtestWithError(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArithmeticException: / by zero
-	at com.studentapp.studentinfo.FirstSerenityTest.thisIsAtestWithError(FirstSerenityTest.java:60)
+	at com.studentapp.studentinfo.FirstSerenityTest.thisIsAtestWithError(FirstSerenityTest.java:56)
 
-thisIsaFailing(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.136 sec  <<< FAILURE!
+thisIsaFailing(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <500> but was <200>.
 
@@ -34,7 +34,7 @@ Expected status code <500> but was <200>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.studentapp.studentinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:42)
+	at com.studentapp.studentinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:38)
 
 fileDoesNotExist(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.003 sec  <<< ERROR!
 java.io.FileNotFoundException: E:\file.txt (The system cannot find the file specified)
@@ -42,5 +42,5 @@ java.io.FileNotFoundException: E:\file.txt (The system cannot find the file spec
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
 	at java.io.FileReader.<init>(FileReader.java:72)
-	at com.studentapp.studentinfo.FirstSerenityTest.fileDoesNotExist(FirstSerenityTest.java:67)
+	at com.studentapp.studentinfo.FirstSerenityTest.fileDoesNotExist(FirstSerenityTest.java:63)
 

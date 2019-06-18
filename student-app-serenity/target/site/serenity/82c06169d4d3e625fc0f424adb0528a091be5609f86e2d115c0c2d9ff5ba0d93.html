@@ -58,7 +58,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-06-2019 17:09</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-06-2019 14:41</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -130,22 +130,47 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="top-level-step">DELETE http://localhost:8080/student/110</span>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                            <span class="top-level-step">Deleting student information with ID: 206</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.13s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">DELETE http://localhost:8080/student/206</span>
 
                                 <span class="rest-query">
                 <span>
                     <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-1">
+                            data-target="#restModal-2">
                         REST Query
                     </button>
                 </span>
                 <!-- Modal -->
-                <div class="modal fade" id="restModal-1" tabindex="-1" role="dialog"
+                <div class="modal fade" id="restModal-2" tabindex="-1" role="dialog"
                      aria-labelledby="restModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -154,7 +179,7 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                DELETE http://localhost:8080/student/110
+                                DELETE http://localhost:8080/student/206
                                 </h4>
                             </div>
                             <div class="modal-body">
@@ -167,7 +192,7 @@
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Sat, 01 Jun 2019 16:09:01 GMT</pre>
+                                    <pre>Date: Sat, 08 Jun 2019 13:41:34 GMT</pre>
                                 <h5>Response Body</h5>
                                     <pre>
                                         

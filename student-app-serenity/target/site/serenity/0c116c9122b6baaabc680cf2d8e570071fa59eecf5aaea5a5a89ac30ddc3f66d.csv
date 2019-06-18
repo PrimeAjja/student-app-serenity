@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"First serenity test","This is atest with error","ERROR","2019-06-01T17:08:38.301+01:00","0.0","0.03"
-"First serenity test","This isa failing","FAILURE","2019-06-01T17:08:48.699+01:00","0.0","0.11"

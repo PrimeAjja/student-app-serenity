@@ -1,14 +1,12 @@
 package com.studentapp.studentinfo;
 
 import com.studentapp.testbase.TestBase;
-import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Manual;
 import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Title;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -18,7 +16,7 @@ import java.io.FileReader;
  * Created by Jay Vaghani on 30-May-2019
  */
 
-@RunWith(SerenityRunner.class)
+//@RunWith(SerenityRunner.class)
 public class FirstSerenityTest  extends TestBase {
 
     @Test
