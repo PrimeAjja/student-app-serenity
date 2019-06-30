@@ -2,20 +2,17 @@ package com.studentapp.studentinfo;
 
 import com.studentapp.cucumber.serenity.StudentSerenitySteps;
 import com.studentapp.testbase.TestBase;
-import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
-import net.thucydides.junit.annotations.UseTestDataFrom;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import java.util.ArrayList;
 
 /**
  * Created by Jay Vaghani on 31-May-2019
  */
-@UseTestDataFrom("src\\test\\java\\resources\\testdata\\studentinfo.csv")
-@RunWith(SerenityParameterizedRunner.class)
+//@UseTestDataFrom("src\\test\\java\\resources\\testdata\\studentinfo.csv")
+//@RunWith(SerenityParameterizedRunner.class)
 public class CreateStudentDataDrivenTest extends TestBase {
 
     private String firstName;

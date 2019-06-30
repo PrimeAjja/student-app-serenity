@@ -16,7 +16,7 @@ import java.io.FileReader;
  * Created by Jay Vaghani on 30-May-2019
  */
 
-@RunWith(SerenityRunner.class)
+//@RunWith(SerenityRunner.class)
 public class FirstSerenityTest  extends TestBase {
 
     @Test
